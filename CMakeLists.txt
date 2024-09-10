@@ -17,8 +17,10 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glfw/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/VulkanSDK/1.3.261.1/Include)
 
 # libs
-link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glfw/)
+link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glfw/build/src/Debug/glfw3.lib)
+link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/VulkanSDK/1.3.261.1/Lib/vulkan-1.lib)
 
+add_definitions(-D GGPUSIM_DIR=${GGPUSIM_ROOT_DIR})
 
 # find_package(Vulkan REQUIRED)
 
@@ -36,7 +38,7 @@ link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glfw/)
 #   include_directories(${CMAKE_CURRENT_SOURCE_DIR}/glslang)
 #   
 #   #
-#   add_definitions(-D TANGRAM_DIR=${TANGRAM_ROOT_DIR})
+#   
 #   add_definitions(-D TANGRAM_INTERMEDIATE_DIR=${TANGRAM_ROOT_DIR}/intermediate/)
 
 source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}/Source" FILES ${HEADER_FILES} ${SOURCE_FILES} ${SOURCE_FILES_CC} ${SOURCE_FILES_C})

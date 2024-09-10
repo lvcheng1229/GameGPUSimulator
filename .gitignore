@@ -31,4 +31,7 @@
 *.out
 *.app
 
+# todo: delete glm/vulkan/glfw libraries
 /thirdparty/VulkanSDK/*
+/thirdparty/glfw/*
+/build/*
