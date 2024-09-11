@@ -1627,3 +1627,86 @@ int main() {
 
     return EXIT_SUCCESS;
 }
+
+// vkEnumeratePhysicalDevices，函数 "private: void __cdecl HelloTriangleApplication::pickPhysicalDevice(void)" (? pickPhysicalDevice@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkGetPhysicalDeviceFeatures，函数 "private: bool __cdecl HelloTriangleApplication::isDeviceSuitable(struct VkPhysicalDevice_T *)" (? isDeviceSuitable@HelloTriangleApplication@@AEAA_NPEAUVkPhysicalDevice_T@@@Z) 中引用了该符号
+// vkGetPhysicalDeviceFormatProperties，函数 "private: enum VkFormat __cdecl HelloTriangleApplication::findSupportedFormat(class std::vector<enum VkFormat,class std::allocator<enum VkFormat> > const &,enum VkImageTiling,unsigned int)" (? findSupportedFormat@HelloTriangleApplication@@AEAA ? AW4VkFormat@@AEBV ? $vector@W4VkFormat@@V ? $allocator@W4VkFormat@@@std@@@std@@W4VkImageTiling@@I@Z) 中引用了该符号
+// vkGetPhysicalDeviceProperties，函数 "private: void __cdecl HelloTriangleApplication::createTextureSampler(void)" (? createTextureSampler@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkGetPhysicalDeviceQueueFamilyProperties，函数 "private: struct QueueFamilyIndices __cdecl HelloTriangleApplication::findQueueFamilies(struct VkPhysicalDevice_T *)" (? findQueueFamilies@HelloTriangleApplication@@AEAA ? AUQueueFamilyIndices@@PEAUVkPhysicalDevice_T@@@Z) 中引用了该符号
+// vkGetPhysicalDeviceMemoryProperties，函数 "private: unsigned int __cdecl HelloTriangleApplication::findMemoryType(unsigned int,unsigned int)" (? findMemoryType@HelloTriangleApplication@@AEAAIII@Z) 中引用了该符号
+// vkGetInstanceProcAddr，函数 "enum VkResult __cdecl CreateDebugUtilsMessengerEXT(struct VkInstance_T *,struct VkDebugUtilsMessengerCreateInfoEXT const *,struct VkAllocationCallbacks const *,struct VkDebugUtilsMessengerEXT_T * *)" (? CreateDebugUtilsMessengerEXT@@YA ? AW4VkResult@@PEAUVkInstance_T@@PEBUVkDebugUtilsMessengerCreateInfoEXT@@PEBUVkAllocationCallbacks@@PEAPEAUVkDebugUtilsMessengerEXT_T@@@Z) 中引用了该符号
+// vkCreateDevice，函数 "private: void __cdecl HelloTriangleApplication::createLogicalDevice(void)" (? createLogicalDevice@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyDevice，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkEnumerateDeviceExtensionProperties，函数 "private: bool __cdecl HelloTriangleApplication::checkDeviceExtensionSupport(struct VkPhysicalDevice_T *)" (? checkDeviceExtensionSupport@HelloTriangleApplication@@AEAA_NPEAUVkPhysicalDevice_T@@@Z) 中引用了该符号
+// vkEnumerateInstanceLayerProperties，函数 "private: bool __cdecl HelloTriangleApplication::checkValidationLayerSupport(void)" (? checkValidationLayerSupport@HelloTriangleApplication@@AEAA_NXZ) 中引用了该符号
+// vkGetDeviceQueue，函数 "private: void __cdecl HelloTriangleApplication::createLogicalDevice(void)" (? createLogicalDevice@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkQueueSubmit，函数 "private: void __cdecl HelloTriangleApplication::drawFrame(void)" (? drawFrame@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkQueueWaitIdle，函数 "private: void __cdecl HelloTriangleApplication::endSingleTimeCommands(struct VkCommandBuffer_T *)" (? endSingleTimeCommands@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@@Z) 中引用了该符号
+// vkDeviceWaitIdle，函数 "private: void __cdecl HelloTriangleApplication::mainLoop(void)" (? mainLoop@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkAllocateMemory，函数 "private: void __cdecl HelloTriangleApplication::createBuffer(unsigned __int64,unsigned int,unsigned int,struct VkBuffer_T * &,struct VkDeviceMemory_T * &)" (? createBuffer@HelloTriangleApplication@@AEAAX_KIIAEAPEAUVkBuffer_T@@AEAPEAUVkDeviceMemory_T@@@Z) 中引用了该符号
+// vkFreeMemory，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkMapMemory，函数 "private: void __cdecl HelloTriangleApplication::createIndexBuffer(void)" (? createIndexBuffer@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkUnmapMemory，函数 "private: void __cdecl HelloTriangleApplication::createIndexBuffer(void)" (? createIndexBuffer@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkBindBufferMemory，函数 "private: void __cdecl HelloTriangleApplication::createBuffer(unsigned __int64,unsigned int,unsigned int,struct VkBuffer_T * &,struct VkDeviceMemory_T * &)" (? createBuffer@HelloTriangleApplication@@AEAAX_KIIAEAPEAUVkBuffer_T@@AEAPEAUVkDeviceMemory_T@@@Z) 中引用了该符号
+// vkBindImageMemory，函数 "private: void __cdecl HelloTriangleApplication::createImage(unsigned int,unsigned int,enum VkFormat,enum VkImageTiling,unsigned int,unsigned int,struct VkImage_T * &,struct VkDeviceMemory_T * &)" (? createImage@HelloTriangleApplication@@AEAAXIIW4VkFormat@@W4VkImageTiling@@IIAEAPEAUVkImage_T@@AEAPEAUVkDeviceMemory_T@@@Z) 中引用了该符号
+// vkGetBufferMemoryRequirements，函数 "private: void __cdecl HelloTriangleApplication::createBuffer(unsigned __int64,unsigned int,unsigned int,struct VkBuffer_T * &,struct VkDeviceMemory_T * &)" (? createBuffer@HelloTriangleApplication@@AEAAX_KIIAEAPEAUVkBuffer_T@@AEAPEAUVkDeviceMemory_T@@@Z) 中引用了该符号
+// vkGetImageMemoryRequirements，函数 "private: void __cdecl HelloTriangleApplication::createImage(unsigned int,unsigned int,enum VkFormat,enum VkImageTiling,unsigned int,unsigned int,struct VkImage_T * &,struct VkDeviceMemory_T * &)" (? createImage@HelloTriangleApplication@@AEAAXIIW4VkFormat@@W4VkImageTiling@@IIAEAPEAUVkImage_T@@AEAPEAUVkDeviceMemory_T@@@Z) 中引用了该符号
+// vkCreateFence，函数 "private: void __cdecl HelloTriangleApplication::createSyncObjects(void)" (? createSyncObjects@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyFence，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkResetFences，函数 "private: void __cdecl HelloTriangleApplication::drawFrame(void)" (? drawFrame@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkWaitForFences，函数 "private: void __cdecl HelloTriangleApplication::drawFrame(void)" (? drawFrame@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateSemaphore，函数 "private: void __cdecl HelloTriangleApplication::createSyncObjects(void)" (? createSyncObjects@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroySemaphore，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateBuffer，函数 "private: void __cdecl HelloTriangleApplication::createBuffer(unsigned __int64,unsigned int,unsigned int,struct VkBuffer_T * &,struct VkDeviceMemory_T * &)" (? createBuffer@HelloTriangleApplication@@AEAAX_KIIAEAPEAUVkBuffer_T@@AEAPEAUVkDeviceMemory_T@@@Z) 中引用了该符号
+// vkDestroyBuffer，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateImage，函数 "private: void __cdecl HelloTriangleApplication::createImage(unsigned int,unsigned int,enum VkFormat,enum VkImageTiling,unsigned int,unsigned int,struct VkImage_T * &,struct VkDeviceMemory_T * &)" (? createImage@HelloTriangleApplication@@AEAAXIIW4VkFormat@@W4VkImageTiling@@IIAEAPEAUVkImage_T@@AEAPEAUVkDeviceMemory_T@@@Z) 中引用了该符号
+// vkDestroyImage，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateImageView，函数 "private: struct VkImageView_T * __cdecl HelloTriangleApplication::createImageView(struct VkImage_T *,enum VkFormat,unsigned int)" (? createImageView@HelloTriangleApplication@@AEAAPEAUVkImageView_T@@PEAUVkImage_T@@W4VkFormat@@I@Z) 中引用了该符号
+// vkDestroyImageView，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateShaderModule，函数 "private: struct VkShaderModule_T * __cdecl HelloTriangleApplication::createShaderModule(class std::vector<char,class std::allocator<char> > const &)" (? createShaderModule@HelloTriangleApplication@@AEAAPEAUVkShaderModule_T@@AEBV ? $vector@DV ? $allocator@D@std@@@std@@@Z) 中引用了该符号
+// vkDestroyShaderModule，函数 "private: void __cdecl HelloTriangleApplication::createGraphicsPipeline(void)" (? createGraphicsPipeline@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateGraphicsPipelines，函数 "private: void __cdecl HelloTriangleApplication::createGraphicsPipeline(void)" (? createGraphicsPipeline@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyPipeline，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreatePipelineLayout，函数 "private: void __cdecl HelloTriangleApplication::createGraphicsPipeline(void)" (? createGraphicsPipeline@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyPipelineLayout，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateSampler，函数 "private: void __cdecl HelloTriangleApplication::createTextureSampler(void)" (? createTextureSampler@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroySampler，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateDescriptorSetLayout，函数 "private: void __cdecl HelloTriangleApplication::createDescriptorSetLayout(void)" (? createDescriptorSetLayout@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyDescriptorSetLayout，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateDescriptorPool，函数 "private: void __cdecl HelloTriangleApplication::createDescriptorPool(void)" (? createDescriptorPool@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyDescriptorPool，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkAllocateDescriptorSets，函数 "private: void __cdecl HelloTriangleApplication::createDescriptorSets(void)" (? createDescriptorSets@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkUpdateDescriptorSets，函数 "private: void __cdecl HelloTriangleApplication::createDescriptorSets(void)" (? createDescriptorSets@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateFramebuffer，函数 "private: void __cdecl HelloTriangleApplication::createFramebuffers(void)" (? createFramebuffers@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyFramebuffer，函数 "private: void __cdecl HelloTriangleApplication::cleanupSwapChain(void)" (? cleanupSwapChain@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateRenderPass，函数 "private: void __cdecl HelloTriangleApplication::createRenderPass(void)" (? createRenderPass@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyRenderPass，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCreateCommandPool，函数 "private: void __cdecl HelloTriangleApplication::createCommandPool(void)" (? createCommandPool@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroyCommandPool，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkAllocateCommandBuffers，函数 "private: struct VkCommandBuffer_T * __cdecl HelloTriangleApplication::beginSingleTimeCommands(void)" (? beginSingleTimeCommands@HelloTriangleApplication@@AEAAPEAUVkCommandBuffer_T@@XZ) 中引用了该符号
+// vkFreeCommandBuffers，函数 "private: void __cdecl HelloTriangleApplication::endSingleTimeCommands(struct VkCommandBuffer_T *)" (? endSingleTimeCommands@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@@Z) 中引用了该符号
+// vkBeginCommandBuffer，函数 "private: struct VkCommandBuffer_T * __cdecl HelloTriangleApplication::beginSingleTimeCommands(void)" (? beginSingleTimeCommands@HelloTriangleApplication@@AEAAPEAUVkCommandBuffer_T@@XZ) 中引用了该符号
+// vkEndCommandBuffer，函数 "private: void __cdecl HelloTriangleApplication::endSingleTimeCommands(struct VkCommandBuffer_T *)" (? endSingleTimeCommands@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@@Z) 中引用了该符号
+// vkResetCommandBuffer，函数 "private: void __cdecl HelloTriangleApplication::drawFrame(void)" (? drawFrame@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkCmdBindPipeline，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdSetViewport，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdSetScissor，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdBindDescriptorSets，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdBindIndexBuffer，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdBindVertexBuffers，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdDrawIndexed，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdCopyBuffer，函数 "private: void __cdecl HelloTriangleApplication::copyBuffer(struct VkBuffer_T *,struct VkBuffer_T *,unsigned __int64)" (? copyBuffer@HelloTriangleApplication@@AEAAXPEAUVkBuffer_T@@0_K@Z) 中引用了该符号
+// vkCmdCopyBufferToImage，函数 "private: void __cdecl HelloTriangleApplication::copyBufferToImage(struct VkBuffer_T *,struct VkImage_T *,unsigned int,unsigned int)" (? copyBufferToImage@HelloTriangleApplication@@AEAAXPEAUVkBuffer_T@@PEAUVkImage_T@@II@Z) 中引用了该符号
+// vkCmdPipelineBarrier，函数 "private: void __cdecl HelloTriangleApplication::transitionImageLayout(struct VkImage_T *,enum VkFormat,enum VkImageLayout,enum VkImageLayout)" (? transitionImageLayout@HelloTriangleApplication@@AEAAXPEAUVkImage_T@@W4VkFormat@@W4VkImageLayout@@2@Z) 中引用了该符号
+// vkCmdBeginRenderPass，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkCmdEndRenderPass，函数 "private: void __cdecl HelloTriangleApplication::recordCommandBuffer(struct VkCommandBuffer_T *,unsigned int)" (? recordCommandBuffer@HelloTriangleApplication@@AEAAXPEAUVkCommandBuffer_T@@I@Z) 中引用了该符号
+// vkDestroySurfaceKHR，函数 "private: void __cdecl HelloTriangleApplication::cleanup(void)" (? cleanup@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkGetPhysicalDeviceSurfaceSupportKHR，函数 "private: struct QueueFamilyIndices __cdecl HelloTriangleApplication::findQueueFamilies(struct VkPhysicalDevice_T *)" (? findQueueFamilies@HelloTriangleApplication@@AEAA ? AUQueueFamilyIndices@@PEAUVkPhysicalDevice_T@@@Z) 中引用了该符号
+// vkGetPhysicalDeviceSurfaceCapabilitiesKHR，函数 "private: struct SwapChainSupportDetails __cdecl HelloTriangleApplication::querySwapChainSupport(struct VkPhysicalDevice_T *)" (? querySwapChainSupport@HelloTriangleApplication@@AEAA ? AUSwapChainSupportDetails@@PEAUVkPhysicalDevice_T@@@Z) 中引用了该符号
+// vkGetPhysicalDeviceSurfaceFormatsKHR，函数 "private: struct SwapChainSupportDetails __cdecl HelloTriangleApplication::querySwapChainSupport(struct VkPhysicalDevice_T *)" (? querySwapChainSupport@HelloTriangleApplication@@AEAA ? AUSwapChainSupportDetails@@PEAUVkPhysicalDevice_T@@@Z) 中引用了该符号
+// vkGetPhysicalDeviceSurfacePresentModesKHR，函数 "private: struct SwapChainSupportDetails __cdecl HelloTriangleApplication::querySwapChainSupport(struct VkPhysicalDevice_T *)" (? querySwapChainSupport@HelloTriangleApplication@@AEAA ? AUSwapChainSupportDetails@@PEAUVkPhysicalDevice_T@@@Z) 中引用了该符号
+// vkCreateSwapchainKHR，函数 "private: void __cdecl HelloTriangleApplication::createSwapChain(void)" (? createSwapChain@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkDestroySwapchainKHR，函数 "private: void __cdecl HelloTriangleApplication::cleanupSwapChain(void)" (? cleanupSwapChain@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkGetSwapchainImagesKHR，函数 "private: void __cdecl HelloTriangleApplication::createSwapChain(void)" (? createSwapChain@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkAcquireNextImageKHR，函数 "private: void __cdecl HelloTriangleApplication::drawFrame(void)" (? drawFrame@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号
+// vkQueuePresentKHR，函数 "private: void __cdecl HelloTriangleApplication::drawFrame(void)" (? drawFrame@HelloTriangleApplication@@AEAAXXZ) 中引用了该符号

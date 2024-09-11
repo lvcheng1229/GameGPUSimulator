@@ -11,14 +11,16 @@ file(GLOB_RECURSE SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp")
 file(GLOB_RECURSE SOURCE_FILES_CC "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cc")
 file(GLOB_RECURSE SOURCE_FILES_C "${CMAKE_CURRENT_SOURCE_DIR}/source/*.c")
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/xgl/icd/api/include/khronos/sdk-1.3) #glm
+
 # include 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty) #glm
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glfw/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/VulkanSDK/1.3.261.1/Include)
+#include_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/VulkanSDK/1.3.261.1/Include)
 
 # libs
 link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glfw/build/src/Debug/glfw3.lib)
-link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/VulkanSDK/1.3.261.1/Lib/vulkan-1.lib)
+#link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/VulkanSDK/1.3.261.1/Lib/vulkan-1.lib)
 
 add_definitions(-D GGPUSIM_DIR=${GGPUSIM_ROOT_DIR})
 
