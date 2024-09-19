@@ -14,3 +14,11 @@ VKAPI_ATTR VkResult VKAPI_CALL vkQueueWaitIdle(
 {
     return VK_SUCCESS;
 }
+
+
+VKAPI_ATTR VkResult VKAPI_CALL vkQueuePresentKHR(
+    VkQueue                                      queue,
+    const VkPresentInfoKHR* pPresentInfo)
+{
+    return VK_SUCCESS;
+}

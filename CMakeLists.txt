@@ -11,7 +11,23 @@ file(GLOB_RECURSE SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp")
 file(GLOB_RECURSE SOURCE_FILES_CC "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cc")
 file(GLOB_RECURSE SOURCE_FILES_C "${CMAKE_CURRENT_SOURCE_DIR}/source/*.c")
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/xgl/icd/api/include/khronos/sdk-1.3) #glm
+# vulkan header
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/xgl/icd/api/include/khronos/sdk-1.3)
+
+# pal header
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/pal/include)
+
+# xgl header
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/xgl/icd/api/include)
+
+# kernel mode driver
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/drm/include)
+
+# gpu device
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/gpu/device/include)
+
+# game gpu simulator common
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source/core/include)
 
 # include 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty) #glm

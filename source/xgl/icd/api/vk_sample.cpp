@@ -5,4 +5,5 @@ VKAPI_ATTR void VKAPI_CALL vkDestroySampler(
     VkSampler                                   sampler,
     const VkAllocationCallbacks* pAllocator)
 {
+
 }
