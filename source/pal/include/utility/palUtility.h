@@ -11,4 +11,9 @@ namespace utility
 	typedef uint32_t uint32;  
 	typedef uint64_t uint64;  
 	typedef uint64_t gpusize;
+
+	enum class Result : int32
+	{
+		Sucess = 0x00000000,
+	};
 }

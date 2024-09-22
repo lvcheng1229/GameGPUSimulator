@@ -24,33 +24,19 @@
  **********************************************************************************************************************/
 
 #pragma once
-#include "pal.h"
-#include "utility/palUtility.h"
-#include "palFormat.h"
+#include "core/palDevice.h"
+#include "core/palQueue.h"
 
 namespace Pal
 {
-    struct BufferViewInfo
-    {
-        gpusize         gpuAddr;  
-        gpusize         range;  
-        gpusize         stride; 
-        SwizzledFormat  swizzledFormat; 
+	struct InternalSubmitInfo
+	{
 
-        union
-        {
-            struct
-            {
-                uint32 bypassMallRead : 1;
-                uint32 bypassMallWrite : 1;
-                uint32 reserved : 30; 
-            };
-            uint32 u32All; 
-        } flags;
-    };
+	};
 
-    class IDevice
-    {
-    public:
-    };
-};
+	class Queue : public IQueue
+	{
+	public:
+		virtual Result OsSubmit(const MultiSubmitInfo& submitInfo, const InternalSubmitInfo* pInternalSubmitInfos) = 0;
+	};
+}

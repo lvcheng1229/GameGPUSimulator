@@ -1,11 +1,15 @@
 #pragma once
-
-class Queue : public Pal::Queue
+#include "../../queue.h"
+namespace Pal
 {
-        virtual Result OsSubmit(
-        const MultiSubmitInfo&    submitInfo,
-        const InternalSubmitInfo* pInternalSubmitInfos) override;
+    namespace Amdgpu
+    {
+        class Queue : public Pal::Queue
+        {
+            virtual Result OsSubmit(const MultiSubmitInfo& submitInfo, const InternalSubmitInfo* pInternalSubmitInfos) override;
 
-        Result SubmitIbs(
-        const InternalSubmitInfo& internalSubmitInfo);
+            Result SubmitIbs(const InternalSubmitInfo& internalSubmitInfo);
+        };
+    }
+   
 }

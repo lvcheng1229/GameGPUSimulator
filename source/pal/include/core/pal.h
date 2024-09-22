@@ -38,4 +38,6 @@ namespace Pal
 	typedef utility::uint32  uint32;   
 	typedef utility::uint64  uint64;   
 	typedef utility::gpusize gpusize;
+
+	typedef utility::Result Result;
 }

@@ -1,3 +1,5 @@
+#include "amdgpuDevice.h"
+#include "amdgpu_internal.h"
 
 namespace Pal
 {
